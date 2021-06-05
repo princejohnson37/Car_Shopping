@@ -9,22 +9,32 @@ html*{
 .title-box{
     padding: 50px;
     background-color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .title-textbox{
     text-align: center;
     font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
 }
-
+.sub{
+    text-align: right;
+    font-style: italic;
+}
 .car1-card{
     padding-top: 10px;
     background-color: white;
     width: 100%;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+
 }
 .card-container{
     padding-top: 10px;
-    margin-top: 10px;
     padding-right: 10px;
     margin-right: 10px;
     padding-left: 10px;
@@ -32,8 +42,34 @@ html*{
 }
 img{
     width: 96%;
-    height: 96%;
+    height: 100%;
     margin: 5px;
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 0%;
+    border-radius: 30px;   
+}
+.car-text-box{
+    padding : 30px;
+    margin-top: 0%;
+    padding-top: fill;
+    margin-bottom: 20px;
+    color: honeydew;
+    text-align: center;
+    background-color: grey;
+    margin-left: 28px;
+    margin-right: 28px;
+    border-radius: 25px;
+}
+.btn-buy-now{
+    margin-left: 45%;
+    color: white;
+    background-color: rosybrown;
+    height: 60px;
+    width: 120px;
+    border-radius: 30px;
+    border-width: 3px;
+
 }
 
